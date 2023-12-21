@@ -1,0 +1,352 @@
+@charset "UTF-8";
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .uposn {
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+header .uposn button {
+  height: 40px;
+  line-height: 5px;
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: white;
+}
+header .uposn button:hover {
+  transition: 0.4s;
+  background-color: #000;
+  border-color: #000;
+  color: white;
+}
+header .uposn a {
+  font-size: 24px;
+  color: #000;
+}
+
+.upimg {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 437px;
+}
+
+.downosn {
+  display: flex;
+  border: 1px solid;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+}
+.downosn button {
+  line-height: 10px;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+.downosn button:hover {
+  background-color: #515763;
+  transition: 0.4s;
+  color: white;
+}
+.downosn button.active {
+  background-color: #515763;
+  color: white;
+}
+
+.layer1 {
+  background-color: rgb(250, 250, 250);
+}
+
+.mpg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.cart {
+  width: 128px;
+  height: 123px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nflex {
+  display: flex;
+}
+
+.uptxt {
+  padding: 5px;
+}
+.uptxt .t13 {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(41, 41, 41, 0.6509803922);
+  width: 190px;
+}
+.uptxt .black {
+  color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.line {
+  border: 1px solid;
+}
+
+h3 {
+  margin-top: 35px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0em;
+}
+h3 span {
+  background: #fff;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.obs {
+  text-align: center;
+}
+
+.uslugi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.obscons {
+  margin: 10px;
+}
+
+.button {
+  width: 294px;
+  height: 40px;
+  background-color: rgba(137, 137, 137, 0.6784313725);
+  border: none;
+}
+
+.button:hover {
+  background-color: #ffd833;
+  transition: 0.7s;
+}
+
+.white {
+  color: white;
+  font: sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 12px;
+  font-family: "proximanova_regular", sans-serif;
+}
+
+.layer3 {
+  background-image: url(img/6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  height: 389px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size: 22px;
+  width: 532px;
+  color: white;
+  text-align: center;
+}
+
+.layer4 {
+  font-family: "proximanova_regular", sans-serif;
+}
+
+.comtxt {
+  color: #656565;
+}
+
+.layer5 {
+  padding: 10px;
+  background-color: #515763;
+  width: 100%;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.back div {
+  margin-left: 8px;
+}
+
+.back img {
+  height: 50px;
+  width: 50px;
+}
+
+.vpr {
+  width: 420px;
+}
+
+.vopros {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #515763;
+  border-color: white;
+  width: 165px;
+  height: 40px;
+  color: white;
+}
+
+.color {
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color:hover {
+  color: #000;
+}
+
+.btn:hover {
+  background-color: white;
+  transition: 0.7s;
+  color: #000;
+}
+
+.ftxt {
+  color: #000;
+}
+
+.fflex {
+  display: flex;
+}
+
+.fpng {
+  height: 45px;
+  width: 44px;
+}
+
+@font-face {
+  /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+  font-family: "proximanova_regular";
+  /* // адрес шрифта и тип  */
+  src: url("/fonts/proximanova_regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.footer {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.ooo {
+  background-image: url(img/a3b28515ce624af7e4f66f3c0ab83805.jpg);
+  height: 477px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ooo p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  width: 860px;
+}
+
+.bloock2 img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+  font-size: 22px;
+}
+
+.flbtwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.str1-4 .newprf {
+  margin-top: 30px;
+}
+.str1-4 .comtxt p {
+  margin: 0;
+}
+.str1-4 .flbtwn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.str2-1 {
+  color: #656565;
+  margin-bottom: 30px;
+}
+.str2-1 .str2-2 .comtxt {
+  margin-left: 15px;
+}
+.str2-1 .proectiv {
+  background-image: url(img/c5019a_870f56808af24e89aaf3cbdc4f876ccd~mv2.webp);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.str2-1 .proectiv p {
+  font-size: 30px;
+  color: white;
+  background-color: rgba(153, 153, 151, 0.7215686275);
+  padding: 20px;
+}
+
+.str3-1 {
+  font-size: 30px;
+  color: #656565;
+}/*# sourceMappingURL=site.css.map */
